@@ -36,7 +36,7 @@ function Home() {
         <h1>Lista de Presença: </h1>
         <div> 
           <strong>{user.name}</strong>
-          <img src='{user.avatar}' alt='imagem de perfil do git' />
+          <img src={user.avatar} alt='imagem de perfil do git' />
         </div>
       </header>
       <input type="text" 
